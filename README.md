@@ -50,7 +50,35 @@ Generating autoload files
 
 Once you've commited all changes to your master branch, run the release command from your local terminal. The command will update all your version files, commit those changes, create a new tag with the new version, and push the tag to your git origin remote.
 
+Documentation
+
+```bash
+Usage:
+  release [options] [--] <segment>
+
+Arguments:
+  segment                        Release level: major|minor|patch
+
+Options:
+    --message[=MESSAGE]          Git commit and tag message
+```
+
+Example
+
 ```bash
 $ composer release major
+Git commit and tag message: Creating first major release
+📣 Updating version from 0.12.5 to 1.0.0
 
+Processing composer.json
+
+package.json not found
+
+style.css not found
+
+src/sass/style.scss not found
+
+plugin.php not found
+
+🎁 Releasing new git tag
 ```
