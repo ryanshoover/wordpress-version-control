@@ -1,0 +1,23 @@
+{
+	"name": "ryanshoover/wp-version-control",
+	"description": "Composer plugin to help keep WordPress package versions in sync.",
+	"type": "composer-plugin",
+	"authors": [
+		{
+			"name": "Ryan Hoover",
+			"email": "ryanshoover@gmail.com"
+		}
+	],
+	"require": {
+		"hassankhan/config": "^2.0",
+		"composer-plugin-api": "^1.1"
+	},
+	"autoload": {
+		"psr-4": {
+			"WPVersionControl\\": "src/"
+		}
+	},
+	"extra": {
+        "class": "WPVersionControl\\Plugin"
+    }
+}
