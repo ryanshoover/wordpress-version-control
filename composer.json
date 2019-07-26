@@ -2,6 +2,8 @@
     "name": "ryanshoover/wp-version-control",
     "description": "Composer plugin to help keep WordPress package versions in sync.",
     "type": "composer-plugin",
+    "license": "MIT",
+    "version": "1.0.1",
     "keywords": [
         "wordpress",
         "version"
@@ -26,6 +28,5 @@
     },
     "extra": {
         "class": "WPVersionControl\\Plugin"
-    },
-    "version": "1.0.1"
+    }
 }
