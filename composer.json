@@ -2,7 +2,10 @@
     "name": "ryanshoover/wp-version-control",
     "description": "Composer plugin to help keep WordPress package versions in sync.",
     "type": "composer-plugin",
-    "keywords": [ "wordpress", "version" ],
+    "keywords": [
+        "wordpress",
+        "version"
+    ],
     "homepage": "https://github.com/ryanshoover/wp-version-control",
     "authors": [
         {
@@ -24,5 +27,5 @@
     "extra": {
         "class": "WPVersionControl\\Plugin"
     },
-    "version": "1.0.0"
+    "version": "1.0.1"
 }
